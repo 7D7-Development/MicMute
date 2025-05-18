@@ -1,5 +1,8 @@
-https://www.flaticon.com/free-icon/microphone-black-shape_25682#term=mic&page=1&position=1
-https://www.flaticon.com/free-icon/microphone-off_25632#term=mic&page=1&position=3
+OLD - https://www.flaticon.com/free-icon/microphone-black-shape_25682#term=mic&page=1&position=1
+OLD - https://www.flaticon.com/free-icon/microphone-off_25632#term=mic&page=1&position=3
+
+NEW - https://www.iconarchive.com/show/papirus-status-icons-by-papirus-team/notification-microphone-sensitivity-low-icon.html
+NEW - https://www.iconarchive.com/show/papirus-status-icons-by-papirus-team/notification-microphone-sensitivity-muted-icon.html
 
 convert icon
 https://www.icoconverter.com/
