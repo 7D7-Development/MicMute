@@ -6,9 +6,9 @@ Mute default capture device (typically microphone) using tray icon click or cust
 
 ### Download binary
 
-[Direct link to latest version](https://github.com/Anc813/MicMute/releases/latest/download/MicMute.exe)
+[Direct link to latest version](https://github.com/7D7-Development/MicMute/releases/latest/download/MicMute.exe)
 
-[All versions](https://github.com/Anc813/MicMute/releases)
+[All versions](https://github.com/7D7-Development/MicMute/releases)
 
 ### Features
 
