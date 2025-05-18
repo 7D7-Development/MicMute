@@ -3,6 +3,8 @@
 Mute default capture device (typically microphone) using tray icon click or custom shortcut.
 
 ![Image](img.png?raw=true "Image")
+![Image](img2.png?raw=true "Image")
+![Image](img3.png?raw=true "Image")
 
 ### Download binary
 
