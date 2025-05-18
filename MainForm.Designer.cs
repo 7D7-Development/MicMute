@@ -62,37 +62,38 @@
             this.hotkeyToolStripMenuItem,
             this.toolStripMenuItem1});
             this.iconContextMenu.Name = "iconContextMenu";
-            this.iconContextMenu.Size = new System.Drawing.Size(200, 118);
+            this.iconContextMenu.Size = new System.Drawing.Size(129, 70);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(199, 38);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(128, 22);
             this.toolStripMenuItem2.Text = "Select mic";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // hotkeyToolStripMenuItem
             // 
             this.hotkeyToolStripMenuItem.Name = "hotkeyToolStripMenuItem";
-            this.hotkeyToolStripMenuItem.Size = new System.Drawing.Size(199, 38);
+            this.hotkeyToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.hotkeyToolStripMenuItem.Text = "Hotkey";
             this.hotkeyToolStripMenuItem.Click += new System.EventHandler(this.HotkeyToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(199, 38);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
             this.toolStripMenuItem1.Text = "Exit";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.ExitMenuItem_Click);
             // 
             // hotkeyTextBox
             // 
+            this.hotkeyTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.hotkeyTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.hotkeyTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.hotkeyTextBox.Hotkey = null;
-            this.hotkeyTextBox.Location = new System.Drawing.Point(24, 78);
-            this.hotkeyTextBox.Margin = new System.Windows.Forms.Padding(6);
+            this.hotkeyTextBox.Location = new System.Drawing.Point(12, 41);
             this.hotkeyTextBox.Name = "hotkeyTextBox";
-            this.hotkeyTextBox.Size = new System.Drawing.Size(494, 44);
+            this.hotkeyTextBox.Size = new System.Drawing.Size(249, 26);
             this.hotkeyTextBox.TabIndex = 1;
             this.hotkeyTextBox.Text = "None";
             // 
@@ -100,20 +101,19 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(26, 32);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(13, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(647, 37);
+            this.label1.Size = new System.Drawing.Size(201, 20);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Register toggle hotkey (auto saved on close)";
+            this.label1.Text = "Click to Set Toggle Keybind";
             // 
             // buttonReset
             // 
             this.buttonReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonReset.Location = new System.Drawing.Point(530, 75);
-            this.buttonReset.Margin = new System.Windows.Forms.Padding(6);
+            this.buttonReset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonReset.Location = new System.Drawing.Point(265, 39);
             this.buttonReset.Name = "buttonReset";
-            this.buttonReset.Size = new System.Drawing.Size(154, 50);
+            this.buttonReset.Size = new System.Drawing.Size(77, 26);
             this.buttonReset.TabIndex = 3;
             this.buttonReset.Text = "reset";
             this.buttonReset.UseVisualStyleBackColor = true;
@@ -123,31 +123,31 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(26, 148);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Location = new System.Drawing.Point(13, 77);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(631, 37);
+            this.label2.Size = new System.Drawing.Size(189, 20);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Register mute hotkey (auto saved on close)";
+            this.label2.Text = "Click to Set Mute Keybind";
             // 
             // muteTextBox
             // 
+            this.muteTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.muteTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.muteTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.muteTextBox.Hotkey = null;
-            this.muteTextBox.Location = new System.Drawing.Point(24, 201);
-            this.muteTextBox.Margin = new System.Windows.Forms.Padding(6);
+            this.muteTextBox.Location = new System.Drawing.Point(12, 105);
             this.muteTextBox.Name = "muteTextBox";
-            this.muteTextBox.Size = new System.Drawing.Size(494, 44);
+            this.muteTextBox.Size = new System.Drawing.Size(249, 26);
             this.muteTextBox.TabIndex = 5;
             this.muteTextBox.Text = "None";
             // 
             // muteReset
             // 
             this.muteReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.muteReset.Location = new System.Drawing.Point(530, 201);
-            this.muteReset.Margin = new System.Windows.Forms.Padding(6);
+            this.muteReset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.muteReset.Location = new System.Drawing.Point(265, 105);
             this.muteReset.Name = "muteReset";
-            this.muteReset.Size = new System.Drawing.Size(154, 50);
+            this.muteReset.Size = new System.Drawing.Size(77, 26);
             this.muteReset.TabIndex = 6;
             this.muteReset.Text = "reset";
             this.muteReset.UseVisualStyleBackColor = true;
@@ -157,20 +157,19 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(26, 267);
-            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label3.Location = new System.Drawing.Point(13, 139);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(667, 37);
+            this.label3.Size = new System.Drawing.Size(210, 20);
             this.label3.TabIndex = 7;
-            this.label3.Text = "Register unmute hotkey (auto saved on close)";
+            this.label3.Text = "Click to Set Unmute Keybind";
             // 
             // unmuteReset
             // 
             this.unmuteReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.unmuteReset.Location = new System.Drawing.Point(530, 310);
-            this.unmuteReset.Margin = new System.Windows.Forms.Padding(6);
+            this.unmuteReset.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.unmuteReset.Location = new System.Drawing.Point(265, 161);
             this.unmuteReset.Name = "unmuteReset";
-            this.unmuteReset.Size = new System.Drawing.Size(154, 50);
+            this.unmuteReset.Size = new System.Drawing.Size(77, 26);
             this.unmuteReset.TabIndex = 9;
             this.unmuteReset.Text = "reset";
             this.unmuteReset.UseVisualStyleBackColor = true;
@@ -178,20 +177,22 @@
             // 
             // unmuteTextBox
             // 
+            this.unmuteTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.unmuteTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.unmuteTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.unmuteTextBox.Hotkey = null;
-            this.unmuteTextBox.Location = new System.Drawing.Point(24, 310);
-            this.unmuteTextBox.Margin = new System.Windows.Forms.Padding(6);
+            this.unmuteTextBox.Location = new System.Drawing.Point(12, 161);
             this.unmuteTextBox.Name = "unmuteTextBox";
-            this.unmuteTextBox.Size = new System.Drawing.Size(494, 44);
+            this.unmuteTextBox.Size = new System.Drawing.Size(249, 26);
             this.unmuteTextBox.TabIndex = 8;
             this.unmuteTextBox.Text = "None";
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(699, 377);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(350, 196);
             this.Controls.Add(this.unmuteReset);
             this.Controls.Add(this.unmuteTextBox);
             this.Controls.Add(this.label3);
@@ -201,10 +202,10 @@
             this.Controls.Add(this.buttonReset);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.hotkeyTextBox);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "MainForm";
-            this.Text = "MicMute";
+            this.Text = "MicMute - Keybinds";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.iconContextMenu.ResumeLayout(false);

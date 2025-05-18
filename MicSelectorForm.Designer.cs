@@ -29,40 +29,49 @@ namespace MicMute
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MicSelectorForm));
             this.cbMics = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cbMics
             // 
+            this.cbMics.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.cbMics.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbMics.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cbMics.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.cbMics.FormattingEnabled = true;
-            this.cbMics.Location = new System.Drawing.Point(26, 80);
+            this.cbMics.Location = new System.Drawing.Point(13, 42);
+            this.cbMics.Margin = new System.Windows.Forms.Padding(2);
             this.cbMics.Name = "cbMics";
-            this.cbMics.Size = new System.Drawing.Size(1139, 45);
+            this.cbMics.Size = new System.Drawing.Size(572, 28);
             this.cbMics.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(21, 18);
+            this.label1.Location = new System.Drawing.Point(10, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(478, 37);
+            this.label1.Size = new System.Drawing.Size(82, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Select mic (auto saved on close)";
+            this.label1.Text = "Select Mic";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // MicSelectorForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1177, 159);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(588, 83);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbMics);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MicSelectorForm";
-            this.Text = "MicSelector";
+            this.Text = "MicMute - MicSelector";
             this.Load += new System.EventHandler(this.MicSelectorForm_Load);
             this.Shown += new System.EventHandler(this.MicSelectorForm_Shown);
             this.ResumeLayout(false);
